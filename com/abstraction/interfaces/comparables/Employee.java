@@ -36,7 +36,7 @@ public final class Employee {
 	}
 	@Override
 	public String toString() {
-		return "Employee [eAge=" + eAge + ", eName=" + eName + ", eSalary=" + eSalary + "]";
+		return "EmployeeLinkedHashSetExample [eAge=" + eAge + ", eName=" + eName + ", eSalary=" + eSalary + "]";
 	}
 
 	

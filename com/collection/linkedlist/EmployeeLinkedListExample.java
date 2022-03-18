@@ -1,15 +1,15 @@
 package com.collection.linkedlist;
 
-public class Employee {
+public class EmployeeLinkedListExample {
 	private int eid;
 	private String eName;
 	private long Salary;
 
-	public Employee() {
+	public EmployeeLinkedListExample() {
 		super();
 	}
 
-	public Employee(int eid, String eName, long salary) {
+	public EmployeeLinkedListExample(int eid, String eName, long salary) {
 		super();
 		this.eid = eid;
 		this.eName = eName;
@@ -42,7 +42,7 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		return "Employee [eid=" + eid + ", eName=" + eName + ", Salary=" + Salary + "]";
+		return "EmployeeLinkedHashSetExample [eid=" + eid + ", eName=" + eName + ", Salary=" + Salary + "]";
 	}
 
 }
